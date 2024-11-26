@@ -1,0 +1,206 @@
+/* index.css */
+
+/* Cor de fundo e texto do header */
+/* index.css */
+
+/* Define a cor de fundo do header */
+h1.custom-header {
+    background-color: #121036; /* Altere para a cor desejada */
+    color: #040412 !important ; /* Define a cor do texto dentro do header */
+}
+body{
+    background-color: #121036 !important;
+}
+
+/* Cartões */
+.card {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    background-color: #121036 !important;
+    color: #fdfdfd !important;
+}
+
+/* Cores personalizadas dos cartões */
+.custom-border-primary {
+    border-color: #8cde00 !important; /* Cor de borda personalizada */
+}
+
+.custom-border-info {
+    border-color: #8cde00 !important; /* Cor de borda personalizada */
+}
+
+.custom-border-success {
+    border-color: #8cde00 !important; /* Cor de borda personalizada */
+}
+
+.custom-border-warning {
+    border-color: #8cde00!important; /* Cor de borda personalizada */
+}
+
+.custom-border-danger {
+    border-color: #8cde00 !important; /* Cor de borda personalizada */
+}
+
+.custom-border-secondary {
+    border-color: #8cde00!important; /* Cor de borda personalizada */
+}
+
+.custom-border-dark {
+    border-color: #8cde00 !important; /* Cor de borda personalizada */
+}
+
+.custom-border-light {
+    border-color: #8cde00 !important; /* Cor de borda personalizada */
+}
+
+/* Texto personalizado */
+.custom-text-primary {
+    color: #8cde00 !important; /* Cor do texto personalizada */
+}
+
+.custom-text-info {
+    color: #8cde00 !important; /* Cor do texto personalizada */
+}
+
+.custom-text-success {
+    color: #8cde00 !important; /* Cor do texto personalizada */
+}
+
+.custom-text-warning {
+    color: #8cde00!important; /* Cor do texto personalizada */
+}
+
+.custom-text-danger {
+    color: #8cde00 !important; /* Cor do texto personalizada */
+}
+
+.custom-text-secondary {
+    color: #8cde00!important; /* Cor do texto personalizada */
+}
+
+.custom-text-dark {
+    color: #8cde00 !important; /* Cor do texto personalizada */
+}
+
+/* Botões personalizados */
+.custom-btn-primary {
+    background-color: #8cde00 !important; /* Cor de fundo do botão */
+    border-color: #8cde00 !important; /* Cor da borda do botão */
+}
+
+.custom-btn-info {
+    background-color: #8cde00 !important; /* Cor de fundo do botão */
+    border-color: #8cde00 !important; /* Cor da borda do botão */
+}
+
+.custom-btn-success {
+    background-color: #8cde00 !important; /* Cor de fundo do botão */
+    border-color: #8cde00 !important; /* Cor da borda do botão */
+}
+
+.custom-btn-warning {
+    background-color: #8cde00!important; /* Cor de fundo do botão */
+    border-color: #8cde00!important; /* Cor da borda do botão */
+}
+
+.custom-btn-danger {
+    background-color: #8cde00 !important; /* Cor de fundo do botão */
+    border-color: #8cde00 !important; /* Cor da borda do botão */
+}
+
+.custom-btn-secondary {
+    background-color: #8cde00!important; /* Cor de fundo do botão */
+    border-color: #8cde00!important; /* Cor da borda do botão */
+}
+
+.custom-btn-dark {
+    background-color: #8cde00 !important; /* Cor de fundo do botão */
+    border-color: #8cde00 !important; /* Cor da borda do botão */
+}
+
+.custom-btn-light {
+    background-color: #8cde00 !important; /* Cor de fundo do botão */
+    border-color: #8cde00 !important; /* Cor da borda do botão */
+}
+
+footer{
+    color: #121036 !important;
+}
+.title{
+    color: rgb(194, 194, 194);
+}
+header div h1{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.contact-form{
+    margin-top: 22vh;
+    margin: 250px;
+}
+.navbar{
+    background-color: #2f2a8f;
+}
+.navlinks{
+    list-style: none;
+    font-size: 25px;
+}
+div ul li a{
+    color: #fdfdfd;
+}
+.nav-link{
+    color:aliceblue;
+    font-size: large;
+    font-weight: 200;
+    font-family:"Ubuntu", sans-serif;
+}
+.nav-item:hover{
+    opacity: 0.4;
+    transition: 200ms;
+}
+.SobreNós{
+    padding-bottom: 21vh;
+}
+.p1{
+    text-align: center;
+    font-family:"Ubuntu", sans-serif;
+    font-size: larger;
+}
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+  }
+
+  footer p{
+    text-align: center;
+  }
+  a.custom-text-success{
+    text-align: center;
+    transition: 400ms;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+  }
+  a.custom-text-success:hover{
+    cursor:pointer;
+    opacity: 0.5;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #8cde00;
+    text-decoration-thickness: 2px;
+  }
+  @media (max-width: 820px) {
+    .contact-form {
+      margin: 1rem;
+    }
+  }
+  @media (min-width: 769px) {
+    .contact-form {
+      padding: 2rem;
+    }
+  }
